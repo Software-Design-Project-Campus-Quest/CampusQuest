@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 </head>
 <body>
-    <h1> Hello World</h1>
-     <h5> this is a small text</h5>
+  <h1>Hello World</h1>
+  <h5>This is a small text</h5>
+
+  <p id="e"></p>
+
+  <script>
+    function print() {
+      document.getElementById("e").innerText = "Hello world";
+    }
+
+    // Call the function to see the result
+    print();
+  </script>
 </body>
 </html>
