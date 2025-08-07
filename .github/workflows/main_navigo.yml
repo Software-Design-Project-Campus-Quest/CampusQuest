@@ -61,5 +61,6 @@ jobs:
         with:
           app-name: 'NAVIGO'
           slot-name: 'Production'
-          package: .
+          package: ./docs
+
           
