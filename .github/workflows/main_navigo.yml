@@ -6,7 +6,7 @@ name: Build and deploy Node.js app to Azure Web App - NAVIGO
 on:
   push:
     branches:
-      - main
+      - reactBranch
   workflow_dispatch:
 
 jobs:
@@ -76,3 +76,4 @@ jobs:
           package: .
 
           
+
