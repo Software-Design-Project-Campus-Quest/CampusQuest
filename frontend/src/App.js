@@ -51,7 +51,7 @@ function App() {
         {quests.map((q) => (
           <li
             key={q.id}
-            className="border p-3 rounded shadow-sm bg-blue-100"
+            className="border p-3 rounded shadow-sm bg-gray-100"
           >
             <strong>{q.name}</strong> - {q.location}
           </li>
