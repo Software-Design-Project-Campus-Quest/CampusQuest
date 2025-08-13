@@ -31,7 +31,7 @@ jobs:
           cd ..
       - name: Move frontend build into backend
         run: |
-          rm -rf backend/build
+          Remove-Item backend/build -Recurse -Force
           cp -r frontend/build backend/
 
       - name: Install backend dependencies
