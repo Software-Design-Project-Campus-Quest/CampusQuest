@@ -6,7 +6,7 @@ name: Build and deploy Node.js app to Azure Web App - NAVIGO
 on:
   push:
     branches:
-      - main
+      - gh-pages
   workflow_dispatch:
 
 jobs:
@@ -61,6 +61,6 @@ jobs:
         with:
           app-name: 'NAVIGO'
           slot-name: 'Production'
-          package: ./docs
+          package: .
 
           
